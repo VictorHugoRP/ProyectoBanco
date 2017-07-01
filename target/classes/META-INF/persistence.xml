@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+	http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+	<persistence-unit name="springdemo">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>com.beeva.practica.ProyectoBanco.model.Banco</class>
+		<class>com.beeva.practica.ProyectoBanco.model.Bancocliente</class>
+		<class>com.beeva.practica.ProyectoBanco.model.Cliente</class>
+		<class>com.beeva.practica.ProyectoBanco.model.Cuenta</class>
+		<class>com.beeva.practica.ProyectoBanco.model.Tipocuenta</class>
+	</persistence-unit>
+
+</persistence>
